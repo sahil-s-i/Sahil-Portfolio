@@ -91,7 +91,7 @@ section {
     align-items: center;
     padding: 0 9%;
     /* replace this pic after adding background  */
-    background: url('images/nhome.png') no-repeat;
+    background: url('./images/nhome.png') no-repeat;
     background-size: cover;
     background-position: left;
 }
@@ -772,7 +772,7 @@ span {
     animation: none;
 }
 
-section:nth-child(odd) .animate.scroll,
+section:nth-child(even) .animate.scroll,
 .footer .animate.scroll {
     background: var(--second-bg-color);
 }
