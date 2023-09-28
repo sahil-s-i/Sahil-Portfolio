@@ -157,9 +157,9 @@ section {
     position: relative;
     font-size: 1.8rem;
     margin: 2rem 0 2rem;
-    /* line-height: 2.5rem; */
+    line-height: 2.6rem;
     text-indent: 10rem;
-    width: 70rem;
+    /* width: 70rem; */
     letter-spacing: .3px;
 }
 
@@ -772,7 +772,7 @@ span {
     animation: none;
 }
 
-section:nth-child(even) .animate.scroll,
+section:nth-child(odd) .animate.scroll,
 .footer .animate.scroll {
     background: var(--second-bg-color);
 }
