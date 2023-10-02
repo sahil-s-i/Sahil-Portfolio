@@ -887,6 +887,10 @@ section:nth-child(odd) .animate.scroll,
         background: var(--bg-color);
         opacity: .6;
     }
+
+    .home-sci {
+        bottom: 1.3rem;
+    }
 }
 
 @media (max-width:520px) {
@@ -901,6 +905,7 @@ section:nth-child(odd) .animate.scroll,
 
     .home-sci {
         width: 160px;
+        bottom: 1.3rem;
     }
 
     .home-sci a {
@@ -912,6 +917,10 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width:462px) {
     .home-content h1 {
         font-size: 5.2rem;
+    }
+
+    .home-sci {
+        bottom: 1.3rem;
     }
 
     .education {
@@ -946,6 +955,9 @@ section:nth-child(odd) .animate.scroll,
 
     .home-content h1 {
         font-size: 5rem;
+    }
+    .home-sci {
+        bottom: 1.3rem;
     }
 }
 
