@@ -26,9 +26,9 @@ This website serves as a digital representation of who I am as a Web-Developer. 
 - **Skills:** View my skills and expertise.
 - **Contact:** Find my contact information.
 
-## Resume
+<!-- ## Resume
 
-You can download my resume for more details: [Download Resume](/resume//Sahil_Resume.pdf).
+You can download my resume for more details: [Download Resume](/resume//Sahil_Resume.pdf). -->
 
 ## LinkedIn
 
