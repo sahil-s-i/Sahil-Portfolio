@@ -90,7 +90,6 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* replace this pic after adding background  */
     background: url('./images/nhome.png') no-repeat;
     background-size: cover;
     background-position: left;
@@ -228,7 +227,7 @@ section {
     position: absolute;
     /* bottom: 2.3rem; */
     bottom: 1.3rem;
-    width: 170px;
+    width: 210px;
     display: flex;
     justify-content: space-between;
     /* padding-top: 3rem; */
@@ -889,9 +888,6 @@ section:nth-child(odd) .animate.scroll,
         opacity: .6;
     }
 
-    /* .home-sci {
-        bottom: 1.3rem;
-    } */
 }
 
 @media (max-width:520px) {
@@ -919,10 +915,6 @@ section:nth-child(odd) .animate.scroll,
     .home-content h1 {
         font-size: 5.2rem;
     }
-
-    /* .home-sci {
-        bottom: 1.3rem;
-    } */
 
     .education {
         padding: 10rem 4% 5rem 5%;
@@ -958,17 +950,15 @@ section:nth-child(odd) .animate.scroll,
         font-size: 5rem;
     }
 
-    /* .home-sci {
-        bottom: 1.3rem;
-    } */
 }
 
-@media (max-height:670px) {
+@media (max-height:670px),
+(max-width:350px) {
     .home-sci {
         visibility: hidden;
     }
 
-    .prolink{
+    .prolink {
         visibility: hidden;
     }
 
