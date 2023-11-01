@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is where I showcase my skills . F
 
 ## Project Overview
 
-This website serves as a digital representation of who I am as a Web-Developer. It reflects my passion for Front-end Development and my journey in the world of Coding. Here, you'll find information about my skills and how to connect with me.
+This website serves as a digital representation of who I am as a Web-Developer. It reflects my passion for Front-end Development and my journey in the world of Coding. Here, you'll find information about my skills, Projects and how to connect with me.
 
 
 ## Technologies Used
@@ -24,11 +24,9 @@ This website serves as a digital representation of who I am as a Web-Developer. 
 - **Home:** Get an overview of my portfolio.
 - **Qualification:** Explore my Education field.
 - **Skills:** View my skills and expertise.
+- **Projects:** Take a look at my Projects.
 - **Contact:** Find my contact information.
 
-<!-- ## Resume
-
-You can download my resume for more details: [Download Resume](/resume//Sahil_Resume.pdf). -->
 
 ## LinkedIn
 
