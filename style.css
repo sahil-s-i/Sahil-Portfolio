@@ -225,8 +225,8 @@ section {
 
 .home-sci {
     position: absolute;
-    /* bottom: 2.3rem; */
-    bottom: 1.3rem;
+    bottom: 2.3rem;
+    /* bottom: 1.3rem; */
     width: 210px;
     display: flex;
     justify-content: space-between;
@@ -599,11 +599,90 @@ span {
     width: 90%;
 }
 
+/* projects section  */
+
+.projects {
+    min-height: auto;
+    padding-bottom: 7rem;
+    background: var(--bg-color);
+}
+
+.projects .projectdiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.projectdiv .projectone {
+    flex: 1 1 40rem;
+
+}
+
+.projectdiv .projectone {
+    position: relative;
+}
+
+.projectsin .title {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.projectcount .p-image {
+    width: 70%;
+    position: relative;
+    margin: 1rem 6rem;
+    border-radius: 1.5rem;
+}
+
+.projectcount p {
+    position: relative;
+    font-size: 1.7rem;
+    margin: 2rem 0 3rem;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+.projectone .projectsin {
+    position: relative;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.p-btn {
+    margin-bottom: 4rem;
+    margin-left: 0rem;
+}
+
+.projectone .projectsin::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.projectone .projectsin:hover::before {
+    width: 100%;
+}
+
+
 /* contact section  */
 
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
+    background: var(--second-bg-color);
 }
 
 .contact h2 {
@@ -689,7 +768,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text,
@@ -784,6 +863,7 @@ section:nth-child(odd) .animate.scroll,
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
+.projects.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
     transition-delay: calc(.3s * var(--i));
@@ -887,7 +967,6 @@ section:nth-child(odd) .animate.scroll,
         background: var(--bg-color);
         opacity: .6;
     }
-
 }
 
 @media (max-width:520px) {
@@ -902,7 +981,6 @@ section:nth-child(odd) .animate.scroll,
 
     .home-sci {
         width: 160px;
-        /* bottom: 1.3rem; */
     }
 
     .home-sci a {
