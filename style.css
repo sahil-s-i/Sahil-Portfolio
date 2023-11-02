@@ -227,7 +227,7 @@ section {
     position: absolute;
     bottom: 2.3rem;
     /* bottom: 1.3rem; */
-    width: 210px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     /* padding-top: 3rem; */
@@ -1030,8 +1030,8 @@ section:nth-child(odd) .animate.scroll,
 
 }
 
-@media (max-height:670px),
-(max-width:350px) {
+/* 350px */
+@media (max-width:400px) {
     .home-sci {
         visibility: hidden;
     }
