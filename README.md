@@ -1,10 +1,10 @@
 # Sahil's Portfolio
 
-Welcome to my personal portfolio website! This is where I showcase my skills . Feel free to explore and learn more about me.
+Welcome to my personal portfolio website! This is where I showcase my skills and Projects. Feel free to explore and Know more about me.
 
 ## Project Overview
 
-This website serves as a digital representation of who I am as a Web-Developer. It reflects my passion for Front-end Development and my journey in the world of Coding. Here, you'll find information about my skills, Projects and how to connect with me.
+This website serves as a digital representation of who I am . It reflects my passion for Front-end Development and my journey in the world of Coding. Here, you'll find information about my skills, Projects and how to connect with me.
 
 
 ## Technologies Used
