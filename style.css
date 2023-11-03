@@ -158,7 +158,6 @@ section {
     margin: 2rem 0 2rem;
     line-height: 2.6rem;
     text-indent: 10rem;
-    /* width: 70rem; */
     letter-spacing: .3px;
 }
 
@@ -168,7 +167,6 @@ section {
     justify-content: space-between;
     width: 34.5rem;
     height: 5rem;
-    /* margin-bottom: 4rem; */
 }
 
 .btn-box .btn {
@@ -226,11 +224,9 @@ section {
 .home-sci {
     position: absolute;
     bottom: 2.3rem;
-    /* bottom: 1.3rem; */
     width: 250px;
     display: flex;
     justify-content: space-between;
-    /* padding-top: 3rem; */
 }
 
 .home-sci a {
@@ -277,7 +273,6 @@ section {
     width: 40%;
     height: 100%;
     background: transparent;
-    /* border: 2px solid red; */
     transition: 3s;
 }
 
@@ -470,7 +465,6 @@ span {
 }
 
 /* skills section  */
-
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
@@ -600,7 +594,6 @@ span {
 }
 
 /* projects section  */
-
 .projects {
     min-height: auto;
     padding-bottom: 7rem;
@@ -678,7 +671,6 @@ span {
 
 
 /* contact section  */
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
@@ -761,7 +753,6 @@ span {
 }
 
 /* footer section  */
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -1030,7 +1021,7 @@ section:nth-child(odd) .animate.scroll,
 
 }
 
-/* 350px */
+/* 350px remember purpose*/
 @media (max-width:400px) {
     .home-sci {
         visibility: hidden;
