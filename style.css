@@ -90,7 +90,8 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('./images/nhome.png') no-repeat;
+    
+    /* background: url('./images/nhome.png') no-repeat; */
     background-size: cover;
     background-position: left;
 }
@@ -144,7 +145,6 @@ section {
     height: 100%;
     border-right: 2px solid var(--main-color);
     z-index: -1;
-
 }
 
 .home.show-animate .home-content .text-animate h3::before {
