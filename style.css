@@ -90,7 +90,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    
+    /* Replace the image by any other image  */
     /* background: url('./images/nhome.png') no-repeat; */
     background-size: cover;
     background-position: left;
